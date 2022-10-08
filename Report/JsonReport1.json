@@ -1,0 +1,139 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "user Login",
+        "description": "",
+        "id": "facebook;user-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1677635400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launch the facebook website",
+            "match": {
+              "location": "stepdefinitionFB.user_launch_the_facebook_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 121042700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user gets text information",
+            "match": {
+              "location": "stepdefinitionFB.user_gets_text_information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 213474400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Enter UserNAme",
+            "match": {
+              "location": "stepdefinitionFB.user_Enter_UserNAme()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 207831500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Enter Password",
+            "match": {
+              "location": "stepdefinitionFB.user_Enter_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120804600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Click Login",
+            "match": {
+              "location": "stepdefinitionFB.user_Click_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13237611600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Returns To Login Page",
+            "match": {
+              "location": "stepdefinitionFB.user_Returns_To_Login_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "New Account",
+        "description": "",
+        "id": "facebook;new-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1981532400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user Create Account",
+            "match": {
+              "location": "stepdefinitionFB.user_Create_Account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 269692200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user TakesScreenshot",
+            "match": {
+              "location": "stepdefinitionFB.user_TakesScreenshot()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "FaceBook",
+    "description": "",
+    "id": "facebook",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/feature/Facebook.feature",
+    "tags": []
+  }
+]

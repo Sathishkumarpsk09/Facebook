@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="17.835707">
+    <testcase classname="FaceBook" name="user Login" time="15.58418">
+        <system-out><![CDATA[Given user launch the facebook website......................................passed
+When user gets text information.............................................passed
+And user Enter UserNAme.....................................................passed
+And user Enter Password.....................................................passed
+And user Click Login........................................................passed
+Then user Returns To Login Page.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="FaceBook" name="New Account" time="2.251527">
+        <system-out><![CDATA[When user Create Account....................................................passed
+And user TakesScreenshot....................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
